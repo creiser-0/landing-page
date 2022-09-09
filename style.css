@@ -1,0 +1,41 @@
+
+
+.header {
+    background-color: #1f2937;
+    width: auto;
+    color: white;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: inherit;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header { 
+    display: flex;
+    justify-content: space-around;
+
+    ;
+}
+
+.header-text {
+    width: 400px;
+}
+
+.header-links {
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
