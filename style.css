@@ -1,15 +1,29 @@
-
+body {
+    margin: 0;
+}
 
 .header {
     background-color: #1f2937;
     width: auto;
     color: white;
+    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
 
+p {
+    font-size: 24px;
 }
 
 button {
     background-color: #3882F6;
     color: inherit;
+}
+
+img {
+    width: 500px;
+    align-self: center;
+    height: auto;
 }
 
 a {
@@ -19,23 +33,43 @@ a {
 
 .header-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 70px;
+    gap: 70px;
 
 }
 
 header { 
     display: flex;
-    justify-content: space-around;
-
-    ;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .header-text {
+
     width: 400px;
+
+}
+
+p, h1 {
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+h3, .header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
 }
 
 .header-links {
     gap: 15px;
     display: flex;
     justify-content: space-between;
+
 }
